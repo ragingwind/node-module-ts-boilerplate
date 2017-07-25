@@ -1,4 +1,4 @@
-export default function (input, opts) => {
+export default function (input, opts) {
 	if (typeof input !== 'string') {
 		throw new TypeError(`Expected a string, got ${typeof input}`)
 	}
@@ -6,4 +6,4 @@ export default function (input, opts) => {
 	opts = opts || {}
 
 	return input + ' & ' + (opts.postfix || 'rainbows')
-};
+}

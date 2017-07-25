@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import meow = require('meow')
-import <%= camelModuleName %> = require('.')
+import meow from 'meow'
+import <%= camelModuleName %> from '.'
 
 const cli = meow(`
 	Usage
@@ -17,4 +17,4 @@ const cli = meow(`
 		ponies & rainbows
 `)
 
-console.log(<%= camelModuleName %>(cli.input[0] || 'unicorns'))
+console.log(<%= camelModuleName %>(cli.input[0] || 'unicorns', cli.flags))
