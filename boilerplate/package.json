@@ -16,7 +16,7 @@
 		"node": ">=6"
 	},
 	"scripts": {
-		"test": "tsc && ava ./dist",
+		"test": "tsc && ava ./dist/test*.js",
 		"build": "tsc",
 		"prepublishOnly": "npm run build"
 	},

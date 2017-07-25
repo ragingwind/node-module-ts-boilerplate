@@ -1,7 +1,8 @@
-import test from 'ava';
+import test from 'ava'
+import m from '.'
 
-const fn = async () => Promise.resolve('foo');
+const fn = async () => Promise.resolve(m('foo', {}))
 
-test(async (t) => {
-	t.is(await fn(), 'foo');
+test(async t => {
+	t.is(await fn(), 'foo & rainbows');
 });

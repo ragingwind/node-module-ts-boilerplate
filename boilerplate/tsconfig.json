@@ -10,10 +10,5 @@
 			"es2016",
 			"es2017"
 		]
-	},
-	"files": [
-		"src/cli.ts",
-		"src/index.ts",
-		"src/test.ts"
-	]
+	}
 }
