@@ -1,0 +1,14 @@
+{
+  "name": "node-module-boilerplate-with-ts",
+  "version": "1.0.0",
+  "description": "Boilerplate for node module with TS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ragingwind/node-module-boilerplate-with-ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ragingwind/node-module-boilerplate-with-ts/issues"
+  }
+}
