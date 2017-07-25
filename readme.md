@@ -19,7 +19,7 @@ You can use template tools on CLI to make the boilerplate to be real. My recomme
 npm install -g lodash.template-cli
 
 # run tpl command with boilerplate content
-tpl ./boilerplate/**/* /path/you/want/to/copy --  -- --camelModuleName=ModuleName --moduleName=modulename --githubUsername=github --name=name --email=email --website=website
+tpl ./boilerplate/**/* /path/you/want/to/copy -- --camelModuleName=ModuleName --moduleName=modulename --githubUsername=github --name=name --email=email --website=website
 ```
 
 ## License
