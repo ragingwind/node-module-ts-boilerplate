@@ -18,14 +18,17 @@ You can use template tools on CLI to make the boilerplate to be real. My recomme
 # install templating tool to global
 npm install -g lodash.template-cli
 
-# make a dest path
-mkdir dist
+# make a copy
+cp -r boilerplate your-module
 
-# run tpl command with boilerplate content
-tpl ./boilerplate/**/* ./dist -- --camelModuleName=ModuleName --moduleName=modulename --githubUsername=github --name=name --email=email --website=website
+# run tpl command with boilerplate content copied
+tpl ./your-module/**/* --overwrite --camelModuleName=ModuleName --moduleName=modulename --githubUsername=github --name=name --email=email --website=website
 
-# copy .dotfiles your path
-cp .* ./dist/boilerplate
+# install deps on /your-module
+npm install
+
+# run test
+npm test
 ```
 
 ## License
